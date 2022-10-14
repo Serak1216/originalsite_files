@@ -1,0 +1,481 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-top {
+    top: 20px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    position: absolute;
+
+}
+
+@media screen and (max-width:478px) {
+    .header-top{
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+    
+
+
+.logo {
+    height: 33px;
+    width: 250px;
+    margin-left: 10px;
+    display: flex;   
+}
+
+.stamp {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+
+
+}
+
+@media screen and (max-width:478px) {
+    .logo{
+        width: 120px;
+        height: 20px;
+    }
+    .stamp {
+        width: 25px;
+        height: 25px;
+        margin-top: 5px;
+    }
+}
+
+.nav {
+    display: flex;
+    float: right;
+    margin: 0 20px 0 auto;
+    list-style: none;
+    font-family: 'Zen Old Mincho', serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav > li > a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.welcome{
+    background-image: url(./assets/canva-person-wearing-white-sneakers-MAD4by7EzvY.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+ 
+@media screen and (max-width:478px) {
+    .welcome{
+            height: 70vh;
+            width: 100%;
+     } 
+}
+
+
+@media screen and (max-width:478px) {
+    .nav > li > a{
+        width: 30px;
+        font-size: 13px;
+        padding-left: 10px;
+        margin: 0;
+    
+    }
+} 
+
+
+.logo2 {
+    height: 100px;
+    width: 1000px;
+    padding: 150px;
+
+} 
+
+@media screen and (max-width:478px) {
+    .logo2 {
+        height: 80px;
+        width: 300px;
+        /* margin-left:0; */
+        padding: unset;
+        
+    }  
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+    
+
+
+@media screen and (max-width:478px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+        width: 100%;
+    }
+
+} 
+
+
+.right {
+    width: 800px;
+}
+
+
+.title2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 70px;
+    font-size: 50px;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+
+.text{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    color: black;
+    margin: 50px 100px;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.example1 {
+    width: 500px;
+    height: 600px;
+    margin-top: 60px;
+    margin-left: 100px;
+    object-position: bottom 30px;
+}
+
+@media screen and (max-width:478px) {
+    .example1{
+        height: auto;
+        width: 70%;
+        margin: 30px;
+        padding: 0;
+        order: 2;
+    }
+
+    .title2{
+        font-size: 30px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .right{
+        width: 90%;
+        order: 1;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .text{
+        width: 75%;
+        margin: 10px;
+        padding-top: 20px;
+        font-size: 20px;
+        order: 1;
+    }
+}
+    
+
+
+
+.container2 {
+    height: 100vh;
+    background-color:gray;
+  
+}
+
+@media screen and (max-width:478px) {
+    .container2{
+        height: 1000px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+.guideline{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+
+@media screen and (max-width:478px) {
+    .guideline{
+        margin: 0;
+        font-size: 25px;
+        padding: 10px;
+
+    }
+    
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: top;
+    list-style: none;
+}
+
+@media screen and (max-width:478px) {
+    .description{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+}
+
+.backtext {
+    font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+    font-weight: bold;
+    padding: 15px 15px 20px 40px;
+}
+
+.sidetext {
+    font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+    font-weight: bold;
+    padding: 15px 15px 20px 30px;
+}
+
+.denimtext {
+    font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+     font-weight: bold;
+    padding: 15px 15px 20px 30px;
+
+}
+
+.box1 {
+    cursor: pointer;
+    max-width: 350px;
+    overflow: hidden;
+    width: 330px;
+}
+
+.box1 img {
+    height: auto;
+    transition: transform .6s ease;/* ゆっくり変化させる */
+    width: 100%;
+}
+
+
+.box1:hover img {
+    transform: scale(1.1);
+}
+
+.box2 {
+    cursor: pointer;
+    max-width: 350px;
+    overflow: hidden;
+    width: 330px;
+}
+
+.box2 img {
+    height: auto;
+    transition: transform .6s ease;/* ゆっくり変化させる */
+    width: 100%;
+}
+
+.box2:hover img {
+    transform: scale(1.1);
+}
+
+.box3 {
+    cursor: pointer;
+    max-width: 350px;
+    overflow: hidden;
+    width: 330px;
+}
+
+.box3 img {
+    height: auto;
+    transition: transform .6s ease;/* ゆっくり変化させる */
+    width: 100%;
+}
+
+.box3:hover img {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:478px) {
+    .box1 img{
+        width:80%;
+        height: 240px;
+        /* display: inline-block;
+        justify-content: center; */
+        padding-left: 35px;
+    }
+    .box2 img {
+        width: 80%;
+        height: 240px;
+        padding-left: 35px;
+    }
+    .box3 img {
+        width: 80%;
+        height: 240px;
+        padding-left: 35px;
+    }
+
+    .backtext{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidetext{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        }
+
+    .denimtext{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+.last {
+    height: 80vh;
+    background-image: url(./assets/lastfooter.jpeg);
+    background-size: cover;
+    background-position: 50% 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+}
+
+@media screen and (max-width:780px) {
+    .last{
+        height: 60vh;
+    }
+    
+}
+
+.sample-box-1 {
+    background-color: #eee;
+    padding: 40px; 
+    width: 500px;
+    height: 80px;
+    opacity: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.official {
+	color: black;
+	text-decoration: none;
+	position: relative;
+    font-size: 30px;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.official:hover {
+	transition: 0.3s ease;
+}
+
+.official::after {
+	display: block;
+	content: '';
+	height: 1px;
+	position: absolute;
+	bottom: -6px;
+	left: 50%;
+	width: 0;
+	height: 1px;
+	background: black;
+	transition: 0.3s ease;
+	transform: translateX(-50%);
+}
+
+.official:hover::after {
+	width: 100%;
+	transition: 0.3s ease;
+}
+
+
+
+.bottom {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width:478px) {
+    .sample-box-1{
+        width: 300px;
+        padding: 0;
+
+
+    }
+    
+} 
+
+ 
